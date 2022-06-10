@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    font-family: Tahoma, Verdana, sans-serif;
+}
+
+.navbar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background: green;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+}
+
+.navbar .logo {
+    padding-right: 3%;
+    padding-left: 3%;
+}
+
+.navbar ul {
+    display: flex;
+    list-style-type: none;
+    width: 100%;
+    justify-content: right;
+    background: black;
+    margin: 0;
+}
+
+.navbar li {
+    padding: 1.5%;
+}
+
+.panel {
+    margin: 0.8em;
+}
+
+.panel .wrapper {
+    border: 3px solid black;
+    padding: 1%;
+}
+
+.flex-container {
+    display: flex;
+    margin: 1%;
+}
+
+.flex-container .left {
+    width: 70%;
+}
+
+.flex-container .right {
+    display: flex;
+    width: 30%;
+}
